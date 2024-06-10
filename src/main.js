@@ -1,4 +1,6 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+// frontend/src/main.js
+import { createApp } from 'vue';
+import App from './App.vue';
+import './index.css'; // Import Tailwind CSS
 
-createApp(App).mount('#app')
+createApp(App).mount('#app');
